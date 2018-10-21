@@ -38,7 +38,7 @@ class App extends Component {
       filteredPokemon = this.state.pokemonList.filter((pokemon) => pokemon.type.includes(this.state.input));
     }
     
-    const imgPath = '/sprites/pokemon/';
+    const imgPath = 'https://raw.githubusercontent.com/hdn301/pokedex/gh-pages/sprites/pokemon/';
     const png = '.png';
 
     const renderedPokemon = filteredPokemon.map(
